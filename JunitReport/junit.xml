@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.206" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="To Validate the Login Functionality" name="To Validate the Correct User name With Wrong Password" time="10.778">
+<system-out><![CDATA[
+Given User launch the Adactin Hotel Application Page........................passed
+When user pass the valid user name and invalid password.....................passed
+Then user click the login button............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
