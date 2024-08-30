@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="11.206" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="To Validate the Login Functionality" name="To Validate the Correct User name With Wrong Password" time="10.778">
+<testsuite name="Cucumber" time="26.094" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="To Validate the Login Functionality" name="To Validate the correct user name with correct password" time="13.144">
 <system-out><![CDATA[
 Given User launch the Adactin Hotel Application Page........................passed
-When user pass the valid user name and invalid password.....................passed
-Then user click the login button............................................passed
+When user pass the valid user name and valid password.......................passed
+Then user click the login btn...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validate the Search Functionality" name="User fill the red Asterix mark as mandatory" time="1.955">
+<system-out><![CDATA[
+When user want to fill the fields like location,hotels, Room type, No of rooms type.passed
+And user want to fill the fields like Adults per room and Children per room.passed
+Then user click the search button...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Select the Hotel in Adactin application" name="user want to select the hotel" time="0.692">
+<system-out><![CDATA[
+When user want to select the hotel creek in.................................passed
+Then user click the continue button.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To Valiate the booking page in Adactin Application" name="User want to fill the manditatory fields in the booking page" time="1.778">
+<system-out><![CDATA[
+When user want to fill the firstname , lastname, Bill Address, credit card number.passed
+And user select the credit card type and select month and year in the dropdown menu.passed
+And user want to fill the cvv number........................................passed
+Then user click the book Now button.........................................passed
+And verify the order generate or not and print the order number in excel sheet.passed
+]]></system-out>
+</testcase>
+<testcase classname="To Validate the Booking conform or not" name="User want to check the hotel booking order" time="7.946">
+<system-out><![CDATA[
+When user want to print the conformation booking order in console...........passed
+Then user want to logout the Adactin application............................passed
 ]]></system-out>
 </testcase>
 </testsuite>
